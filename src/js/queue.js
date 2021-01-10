@@ -31,7 +31,7 @@ class Queue {
 
 
   peek(){
-    if(this.isEmpty){
+    if(this.isEmpty()){
       return undefined;
     }
 
@@ -53,7 +53,6 @@ class Queue {
   }
 
   toString(){
-    debugger;
     if(this.isEmpty()){
       return undefined;
     }
